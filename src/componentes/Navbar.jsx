@@ -11,9 +11,9 @@ const Navbar = () => {
         <ul className='flex'>
             
             
-            <li className='p-4'>Vantagens</li>
-            <li className='p-4'>Planos</li>
-            <li className='p-4'><button className='bg-[#fff300] rounded-md font-medium mx-auto px-3  text-[#080250] uppercase'>Assine</button></li>
+            <li className='p-4 hover:text-[#fff300]'><a href="#benefits">Vantagens</a></li>
+            <li className='p-4 hover:text-[#fff300]'><a href="#cards">Planos</a></li>
+            <li className='p-4'><button className='bg-[#fff300] rounded-md font-medium mx-auto px-2  text-[#080250] uppercase hover:brightness-125'><a href="https://jornaldigital.oglobo.globo.com/">Assine</a></button></li>
             
         </ul>
        

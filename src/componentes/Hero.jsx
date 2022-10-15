@@ -17,8 +17,8 @@ const Hero = () => {
             />
         </div>
         <p className='text-xl font-bold text-white'>Apenas R$ 1,90/mês nos 3 primeiros meses.<br/> <span className='font-normal'>Depois, pague R$24,90/mês.</span></p>
-        <button className='bg-[#fff300] w-[200px] rounded-md font-medium mt-6 mb-1 mx-auto py-3 text-[#080250] uppercase'>Assine agora</button>
-        <p className='text-white'>*Cancele quando quiser.</p>
+        <button className='bg-[#fff300] w-[200px] rounded-md font-medium mt-6 mb-1 mx-auto py-3 text-[#080250] uppercase hover:brightness-125'><a href="https://jornaldigital.oglobo.globo.com/">Assine agora</a></button>
+        <p className='text-white text-sm'>*Cancele quando quiser.</p>
         </div>
         
     </div>
