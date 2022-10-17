@@ -16,7 +16,7 @@ const Hero = () => {
             loop
             />
         </div>
-        <p className='text-xl font-bold text-white'>Apenas R$ <span className='text-3xl text-2xl'>1</span><sup>,90</sup>/mês</p>
+        <p className='text-xl font-bold text-white'>Apenas R$ <span className='text-3xl'>1</span><sup>,90</sup>/mês</p>
         <p>Nos 3 primeiros meses.<br />Depois, pague R$24,90/mês.</p>
         
         <button className='bg-[#fff300] w-[200px] rounded-md mt-6 mb-1 mx-auto py-3 text-[#080250] uppercase shadow-sm hover:brightness-90'><a href="https://jornaldigital.oglobo.globo.com/">Assine agora</a></button>
