@@ -8,7 +8,7 @@ const Footer = () => {
       <div>
         <div className='flex justify-between'>
         <h1 className='w-full pt-0 justify text-3xl font-bold text-white'>4002 5300</h1>
-        <img className='pt-1 w-[30%] h-[30%] md:w-[20%] lg:w-[15%]' src={Logo} alt="/" />
+        <img className='md:pt-1 pt-2 w-[30%] h-[30%] md:w-[20%] lg:w-[15%]' src={Logo} alt="/" />
         
       </div>
         
