@@ -1,4 +1,5 @@
 import Logo from'../assets/logo_topo.png'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
     
@@ -11,9 +12,9 @@ const Navbar = () => {
         <ul className='flex'>
             
             
-            <li className='p-4 hover:text-[#fff300]'><a href="#benefits">Vantagens</a></li>
-            <li className='p-4 hover:text-[#fff300]'><a href="#cards">Planos</a></li>
-            <li className='p-4'><button className='bg-[#fff300] rounded-md font-medium mx-auto px-2  text-[#080250] uppercase hover:brightness-125'><a href="https://jornaldigital.oglobo.globo.com/">Assine</a></button></li>
+            <li className='p-4 hover:text-[#fff300] cursor-pointer'><Link to="benefits" spy={true} smooth={true} offset={50} duration={500}>Vantagens</Link></li>
+            <li className='p-4 hover:text-[#fff300] cursor-pointer'><Link to="cards" spy={true} smooth={true} offset={50} duration={500}>Planos</Link></li>
+            
             
         </ul>
        

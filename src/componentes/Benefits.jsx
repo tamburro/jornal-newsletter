@@ -19,7 +19,7 @@ const Benefits = () => {
         </div>
     </div>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6'>
-    <div className='w-full flex flex-col p-4 my-4 rounded-lg shadow-xl hover:scale-105 duration-300'>
+    <div className='w-full flex flex-col p-4 my-4 rounded-lg shadow-xl'>
             <img className='w-40 mx-auto bg-white' src={Acesso} alt="/" />
             <p className='text-2xl font-bold text-center py-8'>Acesso ilimitado ao site e app</p>
             
@@ -28,7 +28,7 @@ const Benefits = () => {
             </div>
             
         </div>
-        <div className='w-full flex flex-col p-4 my-4 rounded-lg shadow-xl hover:scale-105 duration-300'>
+        <div className='w-full flex flex-col p-4 my-4 rounded-lg shadow-xl'>
         <img className='w-40 mx-auto bg-white' src={Colunistas} alt="/" />
             <p className='text-2xl font-bold text-center py-8'>Os melhores colunistas do Brasil</p>
             
@@ -37,7 +37,7 @@ const Benefits = () => {
             </div>
             
         </div>
-        <div className='w-full flex flex-col p-4 my-4 rounded-lg shadow-xl hover:scale-105 duration-300'>
+        <div className='w-full flex flex-col p-4 my-4 rounded-lg shadow-xl'>
         <img className='w-40 mx-auto bg-white' src={Clube} alt="/" />
             <p className='text-2xl font-bold text-center py-8'>Clube O Globo com descontos</p>
             
