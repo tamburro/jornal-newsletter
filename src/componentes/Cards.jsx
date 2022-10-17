@@ -11,7 +11,7 @@ const Cards = () => {
         <div className='mt-[-96px] w-full mx-auto text-center flex flex-col justify-center pb-10'>
        
         <div className='flex justify-center items-center'>
-        <h3 className='md:text-3xl text-2xl font-bold text-black uppercase'>Conheça outras opções de assinatura</h3>
+        <h3 className='md:text-3xl text-xl font-bold text-black uppercase'>Conheça outras opções de assinatura</h3>
             
         </div>
         
@@ -19,7 +19,7 @@ const Cards = () => {
     </div>
       <div className='max-w-[1240] mx-auto grid md:grid-cols-2'>
           <div className='w-full md:w-[70%] shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 gap-4 border mx-auto bg-gray-200'>
-          <h4 className='md:text-2xl text-xl font-bold text-center py-8 uppercase'>Globo Digital</h4>
+          <h4 className='md:text-2xl text-xl text-center py-8 uppercase'>Globo Digital</h4>
               <img className='w-full h-auto mx-auto bg-gray-200' src={App} alt="/" />
               
               <p className='text-center text-3xl'>R$<span className='text-7xl font-bold'>1</span><sup className='text-3xl font-bold'>,90</sup><br /></p>
@@ -35,7 +35,7 @@ const Cards = () => {
               
           </div>
           <div className='w-full md:w-[70%] shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 gap-4 border mx-auto bg-gray-200'>
-          <h4 className='md:text-2xl text-xl font-bold text-center py-8 uppercase'>Globo Mais</h4>
+          <h4 className='md:text-2xl text-xl text-center py-8 uppercase'>Globo Mais</h4>
               <img className='w-full h-auto  bg-gray-200' src={Mais} alt="/"/>
               
               <p className='text-center text-3xl'>R$<span className='text-7xl font-bold'>3</span><sup className='text-3xl font-bold'>,90</sup><br /></p>
